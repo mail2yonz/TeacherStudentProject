@@ -14,6 +14,9 @@ public class Person {
     private String phoneNumber;
     private String email;
 
+
+    private String Status;
+
     //private Teacher teacher;
 
    // private Student student;
@@ -67,5 +70,13 @@ public Person()
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getStatus() {
+        return Status;
+    }
+
+    public void setStatus(String status) {
+        Status = status;
     }
 }

@@ -6,11 +6,11 @@ public class Teacher extends Person {
 
 
     ArrayList<Course> coursesTaught;
-    Course course;
+   // Course course;
 
     public Teacher()
     {
-        course= new Course();
+        //course= new Course();
         coursesTaught= new ArrayList<Course> (  );
 
     }

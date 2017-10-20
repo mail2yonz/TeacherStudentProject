@@ -6,11 +6,11 @@ public class Course {
     private String courseName;
     private String creaditHour;
 
-    Person person;
+
 
     public Course()
     {
-        person= new Person();
+
 
 
 
